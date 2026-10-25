@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday Niaa 🌸</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- lily shape -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="petal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd9e6"/>
+      <stop offset="1" stop-color="#ff7fa6"/>
+    </linearGradient>
+    <symbol id="lily" viewBox="-90 -90 180 180">
+      <g fill="url(#petal)" stroke="#fff" stroke-opacity=".7" stroke-width="1.5">
+        <path id="p" d="M0,0 C-16,-30 -12,-64 0,-84 C12,-64 16,-30 0,0Z"/>
+        <use href="#p" transform="rotate(60)"/>
+        <use href="#p" transform="rotate(120)"/>
+        <use href="#p" transform="rotate(180)"/>
+        <use href="#p" transform="rotate(240)"/>
+        <use href="#p" transform="rotate(300)"/>
+      </g>
+      <g stroke="#c8102e" stroke-width="2" stroke-linecap="round">
+        <line x1="0" y1="0" x2="0" y2="-34"/>
+        <line x1="0" y1="0" x2="29" y2="-17"/>
+        <line x1="0" y1="0" x2="-29" y2="-17"/>
+        <line x1="0" y1="0" x2="29" y2="17"/>
+        <line x1="0" y1="0" x2="-29" y2="17"/>
+        <line x1="0" y1="0" x2="0" y2="34"/>
+      </g>
+      <g fill="#c8102e">
+        <circle cx="0" cy="-34" r="4"/><circle cx="29" cy="-17" r="4"/><circle cx="-29" cy="-17" r="4"/>
+        <circle cx="29" cy="17" r="4"/><circle cx="-29" cy="17" r="4"/><circle cx="0" cy="34" r="4"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="bg">
+  <svg class="lily l1"><use href="#lily"/></svg>
+  <svg class="lily l2"><use href="#lily"/></svg>
+  <svg class="lily l3"><use href="#lily"/></svg>
+  <svg class="lily l4"><use href="#lily"/></svg>
+</div>
+<div class="floaties" id="floaties"></div>
+<div class="petals" id="petals"></div>
+
+<main class="wrap">
+
+  <!-- hero -->
+  <section class="glass hero">
+    <p class="tag">🤍 happy birthday 🤍</p>
+    <h1>Niaa <span class="spark">🌸</span></h1>
+    <p class="sub">the girl with the most to say — and the world is lucky to hear it 🩷</p>
+    <div class="yap">
+      <span>Yap meter 💬</span>
+      <div class="bar"><i></i></div>
+      <small>100% (still loading… she’s still talking 😂)</small>
+    </div>
+  </section>
+
+  <!-- cake -->
+  <section class="glass cake-card">
+    <h2>Make a wish 🕯️</h2>
+    <div class="cake-wrap" id="cakeWrap">
+      <div class="cake">
+        <div class="candle">
+          <div class="flame" id="flame"></div>
+          <div class="smoke" id="smoke"></div>
+        </div>
+        <div class="tier top"><span class="cherry c1">🍒</span><span class="cherry c2">🍒</span></div>
+        <div class="tier bottom"><span class="heart">🩷</span><span class="heart">🤍</span><span class="heart">🩷</span></div>
+        <div class="plate"></div>
+      </div>
+    </div>
+    <p class="wish-msg" id="wishMsg">light is on — close your eyes, think of your wish, then blow it out 🤍</p>
+    <button class="btn" id="blowBtn">Blow the candle 🌬️</button>
+  </section>
+
+  <!-- message -->
+  <section class="glass msg">
+    <p>
+      Niaa, happy birthday 🎀 May your year be full of good news, loud laughs
+      and endless chats 🌷 You make every room brighter (and louder 😌) —
+      stay exactly this lovely. Sending you so much love 💌🩷🤍
+    </p>
+    <div class="emoji-line">🌸💮🌷🪷🌹🌺 🩷🤍💗💞💝 ✨💫🎈🧁🍓</div>
+  </section>
+
+  <!-- gift -->
+  <section class="glass gift-card">
+    <h2>A little gift for you 🎁</h2>
+    <p class="hint" id="giftHint">tap the gift to open it 🤍</p>
+    <button class="gift" id="gift" aria-expanded="false" aria-controls="giftNote">
+      <span class="box">🎁</span>
+    </button>
+
+    <div class="note" id="giftNote">
+      <div class="note-inner">
+        <h3>Hey Niaa, listen to me for a second 🤍</h3>
+        <p class="lead">(yes, for once you’re the listener 😉)</p>
+        <p>
+          CA Inter not going your way this time says nothing about how smart you
+          are or how far you’ll go. It only means the road took a detour. Lots of
+          people clear it after a setback, and they come back stronger because of it 🌷
+        </p>
+        <ul>
+          <li>🩷 <b>Stay positive</b> — one result is not your whole story.</li>
+          <li>🤍 <b>Small wins daily</b> — a chapter, a few questions, a revision.</li>
+          <li>🌸 <b>Rest is part of the plan</b> — breaks, chai, sleep, repeat.</li>
+          <li>💬 <b>Yap your goals out loud</b> — then go and do them.</li>
+        </ul>
+        <p class="final">
+          So stay motivated, study well, and come back stronger. Your CA
+          dream is waiting for you — and we’re all cheering for you 💗✨
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <p class="footer">made with 🩷 for Niaa 🌷</p>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+          </html>
